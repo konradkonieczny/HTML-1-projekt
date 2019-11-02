@@ -1,0 +1,132 @@
+/*ustaw globalnie*/
+* {
+    margin: 0; padding: 0;
+    font-family: Open Sans, Arial, 
+    sans-serif;
+    box-sizing: border-box;/*nie trzeba dodawac*/
+  }
+
+body{
+    background-color:#ddb;
+}
+
+#wrapp{
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+
+header img{
+  width: 100%;
+  height: auto;
+  display: block;
+} 
+
+nav{
+  overflow: hidden;
+}
+
+a.menu{
+  display: block;
+  width: 25%;
+  float: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip; 
+  /*przesyt tekstu*/
+  color:#fff;
+  text-decoration: none;
+  background-color: darkcyan;
+  padding: 15px 30px;
+  text-align: center;
+  text-justify: center;
+  font-size: 15px;
+  transition: all 0.5s ease-in-out;
+}
+
+
+a.menu:hover{
+  background-color:red;
+  cursor: pointer;
+}
+
+.active{
+ background-color:red;
+}
+
+article{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+article h1{
+  font-size:30 px;
+  text-align: center;
+  margin: 0 10% 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid red;
+}
+
+img.left{
+  float: left;
+  margin: 0 10px 10px 0;
+  padding: 10px ;
+  width: 25%;
+}
+
+img.gallery{
+  position: center;
+  width: 100%;
+  overflow: hidden;
+  transition: all 0.7s ease-in-out;
+}
+
+img.gallery:hover 
+{
+	-webkit-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	transform: scale(1.15);
+}
+
+article p{
+  text-align: justify;
+  line-height: 25px;
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+iframe{
+  width: 100%;
+}
+
+footer{
+  height: 40px;
+  background-color: darkcyan;
+  color:#fff;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+@media (max-width:800px){
+  nav a {
+    width: 50%;
+    }
+}
+
+#zegar{
+  color:rgb(100,100,255);
+  font-size:15px;
+}
+
+
+
+
+
+
+
+
+
+
