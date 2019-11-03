@@ -33,8 +33,7 @@ a.menu{
   float: left;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: clip; 
-  /*przesyt tekstu*/
+  text-overflow: clip; /*przesyt tekstu*/
   color:#fff;
   text-decoration: none;
   background-color: darkcyan;
@@ -116,10 +115,7 @@ footer{
     }
 }
 
-#zegar{
-  color:rgb(100,100,255);
-  font-size:15px;
-}
+
 
 
 
