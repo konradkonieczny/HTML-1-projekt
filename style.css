@@ -33,7 +33,8 @@ a.menu{
   float: left;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: clip; /*przesyt tekstu*/
+  text-overflow: clip; 
+  /*przesyt tekstu*/
   color:#fff;
   text-decoration: none;
   background-color: darkcyan;
